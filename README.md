@@ -17,13 +17,12 @@ Clients can issue requests of type *register* or *authenticate*
 ### Client Register
 To register on a running server issue the following command
 
-   python srp_client.py register 'username' 'password'
-
+     python srp_client.py register 'username' 'password'
 
 ### Client Authentication
 To authenticate to the server     
 
-   python srp_client.py authenticate 'username' 'password'
+     python srp_client.py authenticate 'username' 'password'
 
 
   
