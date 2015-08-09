@@ -6,8 +6,8 @@
 
   Bear in mind that this is only a poc implementation meaning that the server does not store the user data on any persistent storage i.e. a registered user will only be authenticated if the two requests occur in the same process life cycle.
 
-## Server Launch
-Open a terminal a run the server
+## Server Usage
+Open a terminal and launch the server
 
      python srp_server.py
 
