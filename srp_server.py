@@ -100,7 +100,7 @@ def process_authenticate(message, conn):
             conn.send(str(M_s))
         else:
             print "Something went wrong in the authentication process:"
-
+            conn.send(str(0))
     else:
         conn.send("Error: Could not find username in database")
         
